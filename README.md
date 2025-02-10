@@ -1,7 +1,7 @@
 # Bobby Tables Profile Form
 
 ## 📝 Description
-This project demonstrates secure user input handling in PHP for a profile creation form. It validates user inputs to prevent security vulnerabilities, inspired by the **Bobby Tables** comic.
+This project demonstrates secure user input handling in PHP for a profile creation form. It validates user inputs to prevent security vulnerabilities, inspired by the **Bobby Tables** comic. It is project from CodeAcademy. 
 
 ## 🚀 Installation
 1. Clone the repository:  
