@@ -1,5 +1,5 @@
 <?php
-$name = $_POST["name"];
+$name = $_POST["name"] ?? null;
 $character = "";
 $email = "";
 $birth_year = 1969;
@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $name = $raw_name; 
     }
   $raw_birth_year = $_POST["birth_year"];
-  $raw_character = $_POST["character"];
+  $raw_character = $_POST["character"] ?? "";
   function isMage($raw_birth_year) {
     if (($raw_birth_year % 4 == 0 && $raw_birth_year % 100 != 0) || ($raw_birth_year % 400 == 0)) {
       return true;
